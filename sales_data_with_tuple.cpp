@@ -9,10 +9,10 @@ using namespace std;
 double price = 0.0;
 class Sales_data
 {
-    friend bool compareIsbn(const Sales_data&, const Sales_data&);
+    //friend bool compareIsbn(const Sales_data&, const Sales_data&);
     friend void check(const Sales_data&, const Sales_data&, const string);
-    friend Sales_data operator-(const Sales_data& lhs, const Sales_data& rhs);  //减法运算符
-    friend Sales_data operator+(const Sales_data& lhs, const Sales_data& rhs);  //加法运算符
+    //friend Sales_data operator-(const Sales_data& lhs, const Sales_data& rhs);  //减法运算符
+    //friend Sales_data operator+(const Sales_data& lhs, const Sales_data& rhs);  //加法运算符
     friend istream& operator>>(istream&, Sales_data&);  //输入运算符
     friend ostream& operator<<(ostream&, const Sales_data&);    //输出运算符
 public:

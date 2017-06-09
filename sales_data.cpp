@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
-#include <tuple>
-#include <vector>
-#include <list>
+
 using namespace std;
 
 
